@@ -1,11 +1,10 @@
 # Practice---Boolean-Filtering
-# Practice exercise from week 6 numpy class
+# Practice exercise from week 6 NumPy class
 
 import numpy as np
 
 scores = np.array([45, 67, 82, 91, 38, 74, 56, 88, 63, 49])
 
-# Write your solutions here
 # Find scores greater than or equal to 70
 passed = scores[scores >= 70]
 print("passed  scores:", passed)
@@ -14,7 +13,7 @@ print("passed  scores:", passed)
 below_50 = scores[scores < 50]
 print("below_50:", below_50)
 
-# find scores between 60 and 80 inclusive
+# Find scores between 60 and 80 inclusive
 between_60_and_80 = scores[(scores >= 60) & (scores <= 80)]
 print("between_60_and_80:", between_60_and_80 )
 
