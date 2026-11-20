@@ -1,5 +1,5 @@
 # Practice---Boolean-Filtering
-# Practice exercise from week 6
+# Practice exercise from week 6 numpy class
 
 import numpy as np
 
